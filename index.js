@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
   req.send();
   req.addEventListener("load", (data) => {
     console.log(data);
-    document.getElementById("MESSAGE").innerHTML += data.currentTarget.response;
+    document.getElementById("message").innerHTML += data.currentTarget.response;
   });
 });
 
