@@ -40,7 +40,7 @@ const s3 = new AWS.S3({
 
 const port = 8080 || process.env.PORT;
 app.get("/message", (req, res) => {
-    res.send(process.env.MESSAGE || "test2");
+    res.send(process.env.MESSAGE);
 });
 app.get("/host", (req, res) => {
   res.send(os.hostname());
