@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    MESSAGE: "test1"
+    MESSAGE: "MESSAGE"
     ACCESS_KEY: "ACCESS_KEY"
     SECRET_KEY: "SECRET_KEY"
     BUCKET_NAME: "BUCKET_NAME"
